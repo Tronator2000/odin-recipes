@@ -5,12 +5,27 @@ body {
 
 h1 {
     font-weight: bolder;
+    text-align: center;
 }
 
 a {
     color: darkgreen;
+    text-align: center;
+    display: block;
+    padding: 5px;
 }
 
 p, ul, ol {
     background-color: rgb(252, 201, 73);
+}
+
+.recipes-list {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
